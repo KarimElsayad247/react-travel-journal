@@ -22,3 +22,7 @@
     line-height: 18px;
     letter-spacing: -0.075em;
 }
+
+.card > .card-img {
+    width: 125px;
+}

@@ -1,4 +1,4 @@
-[
+const data = [
     {
       "id": "1",
       "name": "Mount Fuji",
@@ -26,4 +26,6 @@
       "content": "https://images.unsplash.com/photo-1522775559573-2f76d540932b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
       "map": "https://www.google.com/maps/place/Bixby+Creek+Bridge/@36.371434,-121.9017074,15z/data=!4m2!3m1!1s0x0:0xadfeac07efb3a389?sa=X&ved=2ahUKEwif_9G4wuH2AhXiSvEDHV-fAXYQ_BJ6BAhhEAU"
     }
-  ]
+];
+
+export default data;
