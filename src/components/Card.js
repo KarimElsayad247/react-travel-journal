@@ -9,10 +9,11 @@ export default function Card(props) {
             <div className="card-content">
                 <div className="card-location">
                     <img src={mapTick} alt="" />
+                    <p>{props.location.toUpperCase()}</p>
                     <a href={props.map}>View on Google Maps</a>
                 </div>
                 <h1 className="name">{props.name}</h1>
-                <p className="data">{props.date}</p>
+                <p className="date">{props.date}</p>
                 <p className="desc">{props.desc}</p>
             </div>
         </section>
